@@ -1,0 +1,30 @@
+{
+
+  "manifest_version": 2,
+  "name": "Firenote",
+  "version": "1.1",
+
+  "description": "Fire note addon based on new Webextension API's",
+  "icons": {
+    "48": "icons/firenote-48.png"
+  },
+
+  "permissions": [
+    "storage"
+  ],
+
+  "browser_action": {
+    "default_icon": {
+      "32": "icons/firenote-32.png"
+    },
+    "default_title": "Firenote",
+    "default_popup": "popup/firenote.html"
+  },
+
+  "applications": {
+    "gecko": {
+      "id": "firenote-example@mozilla.org"
+    }
+  }
+
+}
